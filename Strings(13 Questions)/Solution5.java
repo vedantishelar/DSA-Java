@@ -1,3 +1,5 @@
+// Count the occurrence / frequency of characters in a string
+
 import java.util.*;
 
 public class Solution5 {
