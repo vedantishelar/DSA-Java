@@ -1,3 +1,5 @@
+// Pattern printing (stars, numbers, pyramids)
+
 import java.util.*;
 
 public class Solution12{
