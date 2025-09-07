@@ -1,3 +1,5 @@
+// Check if a string contains only digits
+
 import java.util.*;
 
 public class Solution7 {
