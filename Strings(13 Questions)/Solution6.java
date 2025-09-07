@@ -1,3 +1,5 @@
+// Find the first non-repeating character in a string
+
 import java.util.*;
      
 public class Solution6 {
