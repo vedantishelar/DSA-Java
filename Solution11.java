@@ -2,7 +2,7 @@ import java.util.*;
 
 public class Solution11 {
     public static void main(String[] args) {
-        Scanner in = new Scanner(System.in);
+        Scanner in = new Scanner(System.in); 
         String str = in.nextLine();
         char[] arr = str.toCharArray();
         permute(arr, 0);
