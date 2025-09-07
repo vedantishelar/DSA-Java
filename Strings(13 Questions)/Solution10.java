@@ -1,3 +1,5 @@
+// Print all subsets of a string (recursion)
+
 import java.util.*;
 
 public class Solution10 {
