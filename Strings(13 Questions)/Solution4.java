@@ -1,3 +1,5 @@
+// Count the number of vowels in a string
+
 import java.util.Scanner;
 
 public class Solution4 {
