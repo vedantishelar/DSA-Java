@@ -20,4 +20,4 @@ public class Solution13{
         }
         System.out.println(result);
     }
-}
+}  
