@@ -4,10 +4,9 @@ import java.util.*;
 
 public class Solution1 {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        var sol = new Solution1();
-
-        int n = sc.nextInt();
+        Scanner in = new Scanner(System.in);
+        Solution1 sol = new Solution1();
+        int n = in.nextInt();
         long result = sol.solve(n);
         System.out.println(result);
     }
