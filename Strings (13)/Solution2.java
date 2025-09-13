@@ -10,7 +10,7 @@ public class Solution2 {
         String result = solve(str); 
         System.out.println(result);
 
-        
+        in.close();
     }
 
     public static String solve (String str) {
