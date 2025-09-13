@@ -7,12 +7,11 @@ public class Solution1 {
         Scanner in = new Scanner(System.in);
         String str = in.nextLine();
 
-        Solution1 sol = new Solution1(); 
-        String result = sol.solve(str); 
+        String result = solve(str); 
         System.out.println(result);
     }
 
-    public String solve(String str) {
+    public static String solve(String str) {
 
         char[] arr = str.toCharArray();
         int left = 0, right = arr.length -1;
