@@ -1,4 +1,4 @@
-// Print all primes in range
+// Print all primes in range 
 
 import java.util.Scanner;
 
@@ -6,12 +6,27 @@ public class Solution4 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         int n = in.nextInt();
+        int m = in.nextInt();
 
-        boolean result = solve(n);
-        System.out.println(result);
+        range(n, m);
     }
 
-    public static boolean solve(int n) {
-        return false;
+    public static void range(int n, int m) {
+        for (int i = n; i <= m; i++) {
+            if (isPrime(i)) {
+                System.out.println(i);
+            }
+        }
+    }
+
+    public static boolean isPrime(int num) {
+        if (num <= 1) return false; 
+        if (num == 2) return true;  
+        for (int i = 2; i <= num / 2; i++) {  
+            if (num % i == 0) {
+                return false;
+            }
+        }
+        return true;
     }
 }
