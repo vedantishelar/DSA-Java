@@ -1,6 +1,6 @@
 // LCM (Least Common Multiple)
 
-import java.util.Scanner;
+import java.util.*;
 
 public class Solution12 {
     public static void main(String[] args) {
@@ -25,7 +25,7 @@ public class Solution12 {
         int gcd = a; 
 
         int lcm = (originalA * originalB) / gcd; 
-        
+
         return lcm;
     }
 
