@@ -7,18 +7,22 @@ public class Solution15 {
         int n = in.nextInt();
 
         int[] arr = new int[n];
+
         for (int i = 0; i < n; i++) {
             arr[i] = in.nextInt();
         }
+
         int result = solve(arr);
         System.out.println(result);
     }
     
     public static int solve(int[] arr) {
         int unique = 0;
+
         for (int num : arr) {
             unique = unique ^ num; // XOR operation
         }
+
         return unique;
     }
 }
