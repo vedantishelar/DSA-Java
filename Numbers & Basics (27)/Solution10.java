@@ -1,16 +1,16 @@
 // Automorphic number check
 
-import java.util.*;
-public class Solution10 {
-    public static void main(String[] args) {
+import java.util.*; 
+public class Solution10 { 
+    public static void main(String[] args) {  
         Scanner in = new Scanner(System.in);
-        int n = in.nextInt();
+        int n = in.nextInt(); 
 
         boolean result = solve(n);
-        System.out.println(result);
+        System.out.println(result); 
     }
 
-    public static boolean solve(int n) {
+    public static boolean solve(int n) { 
         int square = n * n;
         int temp = n;
 
